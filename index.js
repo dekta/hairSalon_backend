@@ -43,7 +43,7 @@ app.use("men/haircut",menHairCutrouter )
 app.use("men/beard", menBeardrouter)
 app.use("men/spa",mensparouter)
 app.use("/women",womenRouter)
-
+app.use("/men/status",StatusRouter)
 
 app.get('/auth/google',
   passport.authenticate('google', { scope: ['profile','email'] }));
