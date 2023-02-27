@@ -30,6 +30,7 @@ const { menBeardrouter } = require('./routes/mens_Route/menbeard.route.js');
 const { mensparouter } = require('./routes/mens_Route/menspatreatment.route.js');
 const { checkRouter } = require("./routes/checkAuth.route");
 const {womenRouter} =require('./routes/hair_product.route')
+const {StatusRouter} = require('./routes/mens_Route/mensStatus.route')
 
 
 //routes
