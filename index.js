@@ -45,6 +45,10 @@ app.use("/men/spa",mensparouter)
 app.use("/women",womenRouter)
 app.use("/men/status",StatusRouter)
 
+app.get("/",(req,res)=>{
+  res.send("ok")
+})
+
 app.get('/auth/google',
   passport.authenticate('google', { scope: ['profile','email'] }));
 
